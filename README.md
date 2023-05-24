@@ -34,6 +34,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - www-client/firefox
 - www-servers/nginx
 - x11-libs/libnotify
+- x11-misc/cbatticon
 - x11-misc/i3lock
 - x11-misc/i3status
 - x11-terms/st
