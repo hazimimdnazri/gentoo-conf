@@ -25,6 +25,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - media-fonts/noto-cjk
 - media-fonts/noto-emoji
 - media-fonts/ubuntu-font-family
+- media-gfx/feh
 - net-im/discord
 - net-libs/nodejs
 - net-vpn/openvpn
