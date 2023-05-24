@@ -28,12 +28,14 @@ NGINX_MODULE_HTTP="fastcgi"
 - media-gfx/feh
 - net-im/discord
 - net-libs/nodejs
+- net-misc/freerdp
 - net-vpn/openvpn
 - sys-boot/efibootmgr
 - sys-boot/grub
 - sys-firmware/intel-microcode
 - www-client/firefox
 - www-servers/nginx
+- x11-apps/xrandr
 - x11-libs/libnotify
 - x11-misc/cbatticon
 - x11-misc/i3lock
