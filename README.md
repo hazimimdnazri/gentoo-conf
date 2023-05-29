@@ -1,6 +1,12 @@
 # My Gentoo Configuration & Dependencies
 The following are Gentoo Linux configuration personalised by me.
 
+## Motivation
+"Building" an minimal, clean and optimum OS for development purposes.
+
+### Kernel Configuration
+WIP
+
 ### /etc/portage/make.conf
 ```
 USE="X pulseaudio elogind postproc text -bindst -ldap -openldap -gnome -systemd -kde -css -bluetooth -multilib -qt -qt5 -qtwebengine -webengine -wayland"
@@ -55,3 +61,9 @@ app-misc/mime-types nginx
 */* PYTHON_TARGETS: -* python3_11
 */* PYTHON_SINGLE_TARGET: -* python3_11
 ```
+
+## Contributing
+I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue of PR.
+
+## What is next?
+Linux From Scratch?
