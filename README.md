@@ -63,7 +63,7 @@ app-misc/mime-types nginx
 ```
 
 ## Contributing
-I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue of PR.
+I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue or PR.
 
 ## What is next?
 Linux From Scratch?
