@@ -36,6 +36,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - net-libs/nodejs
 - net-misc/freerdp
 - net-vpn/openvpn
+- net-wireless/iwd
 - sys-boot/efibootmgr
 - sys-boot/grub
 - sys-firmware/intel-microcode
