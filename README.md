@@ -5,7 +5,13 @@ The following are Gentoo Linux configuration personalised by me.
 "Building" an minimal, clean and optimum OS for development purposes.
 
 ### Kernel Configuration
-WIP
+- HID over I2C transport layer ACPI driver [*] *(for Elantech touchpad)*
+- Macintosh device drivers [ ]
+- Reiserfs, JFS, XFS, GFS2, OCFS2, Btrfs, NILFS2, F2FS, zonefs [ ]
+- ATI Radeon, AMD GPU, Nouveau cards [ ]
+- MMC/SD/SDIO card support [ ]
+- Sony MemoryStick card support [ ]
+- Disable joystick, tablets, touchscreen, [ ]
 
 ### /etc/portage/make.conf
 ```
