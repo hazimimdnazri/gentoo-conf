@@ -37,19 +37,18 @@ NGINX_MODULE_HTTP="fastcgi"
 - net-misc/freerdp
 - net-vpn/openvpn
 - net-wireless/iwd
-- sys-boot/efibootmgr
 - sys-boot/grub
 - sys-firmware/intel-microcode
 - www-client/firefox
 - www-servers/nginx
 - x11-apps/xrandr
+- x11-base/xorg-server
 - x11-libs/libnotify
 - x11-misc/cbatticon
 - x11-misc/i3lock
 - x11-misc/i3status
 - x11-terms/st
 - x11-wm/i3
-
 
 ### /etc/portage/package.use
 ```
