@@ -45,10 +45,10 @@ NGINX_MODULE_HTTP="fastcgi"
 - net-wireless/iwd
 - sys-boot/grub
 - sys-firmware/intel-microcode
+- sys-power/acpilight
 - www-client/firefox
 - www-servers/nginx
 - x11-apps/xrandr
-- x11-apps/xbacklight
 - x11-base/xorg-server
 - x11-libs/libnotify
 - x11-misc/cbatticon
