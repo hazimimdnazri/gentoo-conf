@@ -39,7 +39,6 @@ NGINX_MODULE_HTTP="fastcgi"
 - media-fonts/ubuntu-font-family
 - media-gfx/feh
 - net-im/discord
-- net-libs/nodejs
 - net-misc/freerdp
 - net-vpn/openvpn
 - net-wireless/iwd
