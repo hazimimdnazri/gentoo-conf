@@ -68,6 +68,22 @@ app-misc/mime-types nginx
 */* PYTHON_SINGLE_TARGET: -* python3_11
 ```
 
+## Problems Encountered
+
+##### Unable to startx after configuring .xinitrc
+  > Make sure to add the user into the **video** group
+
+##### Touchpad not working (elantech)
+  > Enable **HID over I2C transport layer ACPI driver** inside kernel configuration and recompile.
+
+##### Unable to play sound
+  > Make sure the .config folder is writeable. Use **pulsemixer** to check if the output is muted or not.
+  > Add the user to **audio** group.
+
+##### Installed apache and php-fpm, but php files showing blank page (PHP-FPM through mod_proxy_fcgi method)
+  > Follow the instruction given in the handbook.
+  > Add **APACHE2_MODULES="$APACHE2_MODULES http2 proxy proxy_fcgi"** into your **make.conf** and update.
+
 ## Contributing
 I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue or PR.
 
