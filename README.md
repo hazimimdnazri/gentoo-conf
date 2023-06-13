@@ -34,6 +34,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - dev-lang/php-7.4.33
 - dev-vcs/git
 - mail-client/thunderbird
+- media-fonts/noto
 - media-fonts/noto-cjk
 - media-fonts/noto-emoji
 - media-fonts/ubuntu-font-family
