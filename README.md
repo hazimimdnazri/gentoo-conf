@@ -80,6 +80,9 @@ app-misc/mime-types nginx
   > Make sure the .config folder is writeable. Use **pulsemixer** to check if the output is muted or not.
   > Add the user to **audio** group.
 
+##### Unable to change screen brightness
+  > Bunch of solution online, emerge sys-power/acpilight and try with command **xbacklight -dec 2**, it usually works.
+
 ##### Installed apache and php-fpm, but php files showing blank page (PHP-FPM through mod_proxy_fcgi method)
   > Follow the instruction given in the handbook.
   > Add **APACHE2_MODULES="$APACHE2_MODULES http2 proxy proxy_fcgi"** into your **make.conf** and update.
