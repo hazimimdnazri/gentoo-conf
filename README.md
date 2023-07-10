@@ -46,6 +46,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - sys-boot/grub
 - sys-firmware/intel-microcode
 - sys-power/acpilight
+- sys-power/acpi
 - www-client/firefox
 - www-servers/nginx
 - x11-apps/xrandr
