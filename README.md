@@ -89,6 +89,10 @@ app-misc/mime-types nginx
   > Follow the instruction given in the handbook.
   > Add **APACHE2_MODULES="$APACHE2_MODULES http2 proxy proxy_fcgi"** into your **make.conf** and update.
 
+##### Kernel 6.1.38 high temperature when idle #####
+  > Enabling Laptop Hybrid Graphics and Nouveau (NVIDIA) cards modules.
+  > Follow how to power down graphic card on hybrid graphics wiki in Gentoo handbook. 
+
 ## Contributing
 I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue or PR.
 
