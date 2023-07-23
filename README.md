@@ -91,7 +91,10 @@ app-misc/mime-types nginx
 
 ##### Kernel 6.1.38 high temperature when idle #####
   > Enabling Laptop Hybrid Graphics and Nouveau (NVIDIA) cards modules.
-  > Follow how to power down graphic card on hybrid graphics wiki in Gentoo handbook. 
+  > Follow how to power down graphic card on hybrid graphics wiki in Gentoo handbook.
+
+##### Unable to run Zoom-5.15.3.4839.glibc2.17-x86_64.AppImage #####
+  > Emerge app-crypt/mit-krb5.
 
 ## Contributing
 I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue or PR.
