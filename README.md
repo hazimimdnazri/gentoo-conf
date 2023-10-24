@@ -32,6 +32,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - dev-db/mariadb
 - dev-lang/php-8.1.16
 - dev-lang/php-7.4.33
+- dev-php/pecl-imagick
 - dev-vcs/git
 - mail-client/thunderbird
 - media-fonts/noto
@@ -47,6 +48,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - sys-firmware/intel-microcode
 - sys-power/acpilight
 - sys-power/acpi
+- virtual/cron
 - www-client/firefox
 - www-servers/nginx
 - x11-apps/xrandr
