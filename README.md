@@ -40,7 +40,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - media-fonts/noto-emoji
 - media-fonts/ubuntu-font-family
 - media-gfx/feh
-- net-im/discord
+- net-im/discord ---> Can be installed with tar package into /opt/discord and insert dmenu at /usr/local/bin
 - net-misc/freerdp
 - net-vpn/openvpn
 - net-wireless/iwd
