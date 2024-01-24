@@ -98,6 +98,26 @@ app-misc/mime-types nginx
 ##### Unable to run Zoom-5.15.3.4839.glibc2.17-x86_64.AppImage #####
   > Emerge app-crypt/mit-krb5.
 
+
+## I F*ed up! What sould I do? ##
+If your grub is gone, boot into the live cd and ssh into the live cd. Copy all the instructions given below.
+
+```
+mount --types proc /proc /mnt/gentoo/proc && mount --rbind /sys /mnt/gentoo/sys && mount --make-rslave /mnt/gentoo/sys && mount --rbind /dev /mnt/gentoo/dev && mount --make-rslave /mnt/gentoo/dev && mount --bind /run /mnt/gentoo/run && mount --make-slave /mnt/gentoo/run 
+```
+
+```
+chroot /mnt/gentoo /bin/bash  && source /etc/profile && export PS1="(chroot) ${PS1}"
+```
+The command above will chroot you into you system. You may reinstall the kernel if you want to.
+
+```
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Gentoo
+
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+The command above will reinstall grub. Sometimes you don't need to reinstall grub, you only need to reconfigure the grub.
+
 ## Contributing
 I'm not a Linux expert nor a skilled programmer, feel free to help me in "building" optimised, clean and minimal linux environment by creating an issue or PR.
 
