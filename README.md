@@ -99,7 +99,7 @@ app-misc/mime-types nginx
   > Emerge app-crypt/mit-krb5.
 
 
-## I F*ed up! What sould I do? ##
+## I F*ed up! What should I do? ##
 If your grub is gone, boot into the live cd and ssh into the live cd. Copy all the instructions given below.
 
 ```
@@ -109,7 +109,7 @@ mount --types proc /proc /mnt/gentoo/proc && mount --rbind /sys /mnt/gentoo/sys 
 ```
 chroot /mnt/gentoo /bin/bash  && source /etc/profile && export PS1="(chroot) ${PS1}"
 ```
-The command above will chroot you into you system. You may reinstall the kernel if you want to.
+The command above will chroot you into your system. You may reinstall the kernel if you like to.
 
 ```
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Gentoo
