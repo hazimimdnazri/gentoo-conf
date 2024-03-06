@@ -47,7 +47,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - sys-boot/grub
 - sys-firmware/intel-microcode
 - sys-power/acpilight
-- sys-power/acpi
+- sys-power/acpi ---> Need to give permission to acpilight
 - virtual/cron
 - www-client/firefox
 - www-servers/nginx
@@ -71,6 +71,30 @@ app-misc/mime-types nginx
 */* PYTHON_TARGETS: -* python3_11
 */* PYTHON_SINGLE_TARGET: -* python3_11
 ```
+
+## Manual Kernel Configuration ##
+##### Please enable framebuffer first! #####
+> - Device Drivers
+>   - Graphic Supports
+>     - Frame buffer Devices
+>       - <*> Support for frame buffer device drivers
+>
+
+##### Synaptics Touchpad #####
+> - Device Drivers
+>   - Input device support
+>     - Mice
+>       - [*] Elantech PS/2 protocol extension
+
+##### Sound #####
+> - Device Drivers
+>   - Sound card support
+>     - ALSA
+>       - [*] Build Realtek HD-audio codec support
+>       - [*] Build Analog Devices HD-audio codec support
+>       - [*] Build IDT/Sigmatel HD-audio codec support
+>       - [*] Build VIA HD-audio codec support
+>       - [*] Build HDMI/DisplayPort HD-audio codec support
 
 ## Problems Encountered
 
