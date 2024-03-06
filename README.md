@@ -54,6 +54,7 @@ NGINX_MODULE_HTTP="fastcgi"
 - x11-apps/xrandr
 - x11-base/xorg-server
 - x11-libs/libnotify
+- x11-libs/libXScrnSaver ---> For discord
 - x11-misc/cbatticon
 - x11-misc/i3lock
 - x11-misc/i3status
