@@ -104,6 +104,7 @@ app-misc/mime-types nginx
 
 ##### Touchpad not working (elantech)
   > Enable **HID over I2C transport layer ACPI driver** inside kernel configuration and recompile.
+  > Please also enable your processor PINCTRL, Designware module, HID Multitouch and LPSS.
 
 ##### Unable to play sound
   > Make sure the .config folder is writeable. Use **pulsemixer** to check if the output is muted or not.
